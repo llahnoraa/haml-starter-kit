@@ -1,0 +1,51 @@
+!!!
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7]    <html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8]    <html class="no-js lt-ie9" lang="en">
+/[if gt IE 8] <html class="no-js" lang="en">
+
+%head
+  %meta{:charset => "utf-8"}
+  %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+  %title Created by Aaron Hall
+  %meta{:content => "", :name => "description"}
+  %meta{:content => "", :name => "author"}
+  %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0",:name => "viewport"}
+ 
+  %link(rel="stylesheet" href="css/base.css")
+  %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Droid+Serif")
+
+  %script{:src => "http://modernizr.com/downloads/modernizr-latest.js"}
+
+%body
+
+  /[if IE ]
+    .chromeframe
+      %h1
+        Sorry, this site don't support Internet Explorer 1–9
+      %p
+        %a{ :href => 'http://browsehappy.com/' } Upgrade to a different browser
+        or
+        %a{ :href => 'http://www.google.com/chromeframe/?redirect=true' } install Google Chrome Frame
+        to experience this site.
+
+  .container
+
+    /this is the haml comment
+    .span-12
+      span-12
+
+    .span-8
+      span-8
+    .span-4.omega
+      span-4 with omega
+
+    .span-3
+      span-3
+    .span-3
+      span-3
+    .span-6.omega
+      span-6 with omega
+
+%script{:src => "js/script.js"}
+%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"}
