@@ -1,4 +1,4 @@
-# Simple HAML
+# Haml Starter Kit
 Ever wanted to use excellent HAML syntax on any project even the small one? Me too, so I made one! HAML is intended for 'elegant' markup, eliminating the reptetive tags of HTML. I like to use Haml because it eliminates superfluous markup including closing tag. View code is much easier to read. What's in the package are basic responsive website template with HAML, Bourbon and Neat.
 
 # About the language
@@ -55,4 +55,4 @@ If you're already familiar with compilers like [CodeKit](http://incident57.com/c
  * [Mou](http://mouapp.com) - the missing Markdown editor for web developers
  
 ### License
-Simple Haml is released under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/). This means you can copy, distribute, transmit and adapt the work to your own personal and commercial projects.
+Haml Starter Kit is released under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/). This means you can copy, distribute, transmit and adapt the work to your own personal and commercial projects.
